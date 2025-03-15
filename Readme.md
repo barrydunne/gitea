@@ -32,7 +32,7 @@ For a webhook to work the target must be allowed.
 
 1. Edit the `data/gitea/conf/app.ini` file to include these lines:
     ```
-    [webhooks]
+    [webhook]
     ALLOWED_HOST_LIST = *
     ```
 1. Restart Gitea
